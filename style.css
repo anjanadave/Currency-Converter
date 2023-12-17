@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #642B73;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C6426E, #642B73);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C6426E, #642B73); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.main {
+    height: 70vh;
+    width: 45vw;
+    background-color: rgb(245, 241, 241);
+    margin-left: 400px;
+    margin-top: 120px;
+}
+
+.blank {
+    height: 60vh;
+    width: 35vw;
+    background: white;
+    margin-left: 70px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 45px;
+    color: #218c74;
+    padding-bottom: 30px;
+}
+
+.label {
+    margin-left: 200px;
+    font-size: 20px;
+}
+
+.one {
+    width: 90%;
+    height: 6vh;
+    margin-left: 25px;
+    font-size: 17px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+
+button {
+    width: 90%;
+    height: 6vh;
+    margin-left: 25px;
+    font-size: 17px;
+    padding-left: 10px;
+    background: #218c74;
+    color: white;
+    margin-bottom: 30px;
+}
+
+#result {
+    margin-left: 220px;
+    font-size: 20px;
+}

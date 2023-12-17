@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main" >
+        <div class="blank" style="margin-top: 20px;">
+            <h1>Currency Converter</h1>
+            <label for="numberInput" class="label">Amount in INR: </label><br>
+            <input type="text" id="operation" class="one" placeholder="Enter amount in INR"><br>
+
+            <button onclick="convert()">Convert</button>
+            <p id="result"></p>
+        </div>
+    </div>
+    <script>
+        function convert(){
+            const amount = parseFloat(document.getElementById("operation").value);
+
+            const conversionRate = 0.014;
+
+            const convertedAmount = amount * conversionRate;
+
+            document.getElementById('result').innerHTML = `<span style="font-size: 30px; color: #218c74;">Result: </span> <br> ${convertedAmount.toFixed(2)} USD`;
+        }
+    </script>
+</body>
+
+</html>
